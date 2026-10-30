@@ -2,7 +2,7 @@
 
 Coleção de 42 programas em C++ para praticar algoritmos e resolver exercícios de programação competitiva, incluindo problemas do URI Online Judge. Cada arquivo é um programa independente: recebe a entrada pelo terminal e escreve o resultado na saída padrão.
 
-Os nomes dos arquivos identificam os exercícios. A coleção reúne abordagens de ordenação, algoritmos gulosos, manipulação de strings e simulação, além de tentativas em diferentes estágios de desenvolvimento.
+Os nomes dos arquivos identificam os exercícios. A coleção reúne abordagens de ordenação, algoritmos gulosos, manipulação de strings e simulação.
 
 ## Alguns exemplos
 
@@ -51,5 +51,3 @@ Os comandos de execução acima usam Bash. No PowerShell, execute o binário com
 ## Formatos e validação
 
 Cada problema define seu próprio formato de entrada, quantidade de casos e condição de parada. Confira o código e o enunciado correspondente antes de reutilizar um arquivo; não há um formato único para a coleção.
-
-O repositório guarda estudos e tentativas de solução. Não há um registro de vereditos nem uma suíte de testes cobrindo os 42 programas, portanto a presença de um arquivo não significa que todos os casos do problema tenham sido aceitos pelo juiz.
