@@ -1,53 +1,55 @@
 # uriproblems
 
-Coleção de 42 programas em C++ para praticar algoritmos e resolver exercícios de programação competitiva, incluindo problemas do URI Online Judge. Cada arquivo é um programa independente: recebe a entrada pelo terminal e escreve o resultado na saída padrão.
+English | [Português (Brasil)](README.pt-BR.md)
 
-Os nomes dos arquivos identificam os exercícios. A coleção reúne abordagens de ordenação, algoritmos gulosos, manipulação de strings e simulação.
+A collection of 42 C++ programs for practicing algorithms and solving competitive programming exercises, including URI Online Judge problems. Each file is a standalone program: it reads input from the terminal and writes the result to standard output.
 
-## Alguns exemplos
+The filenames identify the exercises. The collection includes sorting, greedy algorithms, string processing, and simulation.
 
-| Arquivo | Tema estudado |
+## Selected examples
+
+| File | Topic |
 |---|---|
-| [num inversoes.cpp](<num inversoes.cpp>) | Contagem de inversões com merge sort |
-| [apagandoeganhando.cpp](apagandoeganhando.cpp) | Escolha gulosa de dígitos, com remoções no fim de uma string |
-| [N meetings in one room.cpp](<N meetings in one room.cpp>) | Seleção de intervalos ordenados pelo horário de término |
-| [all in all.cpp](<all in all.cpp>) | Verificação de subsequência entre strings |
-| [campominado.cpp](campominado.cpp) | Simulação de vizinhança em um vetor |
-| [botastrocadas.cpp](botastrocadas.cpp) | Contagem de pares por tamanho e lado |
-| [maquinadecafe2.cpp](maquinadecafe2.cpp) | Comparação direta do custo de três escolhas |
+| [num inversoes.cpp](<num inversoes.cpp>) | Inversion counting with merge sort |
+| [apagandoeganhando.cpp](apagandoeganhando.cpp) | Greedy digit selection, with removals from the end of a string |
+| [N meetings in one room.cpp](<N meetings in one room.cpp>) | Interval selection sorted by finishing time |
+| [all in all.cpp](<all in all.cpp>) | Subsequence checking between strings |
+| [campominado.cpp](campominado.cpp) | Neighborhood simulation in an array |
+| [botastrocadas.cpp](botastrocadas.cpp) | Counting pairs by size and side |
+| [maquinadecafe2.cpp](maquinadecafe2.cpp) | Direct comparison of the cost of three choices |
 
-## Compilar e executar
+## Compile and run
 
-Compile um arquivo por vez, pois os programas têm funções `main` próprias. Um compilador GCC com suporte a GNU C++17 acomoda os recursos usados na coleção, incluindo extensões presentes em alguns fontes.
+Compile one file at a time, since each program has its own `main` function. A GCC compiler with GNU C++17 support accommodates the features used in this collection, including extensions present in some source files.
 
-Por exemplo, para executar a contagem de inversões:
+For example, to run inversion counting:
 
 ```bash
 g++ -std=gnu++17 -O2 "num inversoes.cpp" -o inversoes
 ./inversoes
 ```
 
-Entrada de exemplo:
+Sample input:
 
 ```text
 5
 5 4 3 2 1
 ```
 
-Saída esperada:
+Expected output:
 
 ```text
 10
 ```
 
-Também é possível ler a entrada de um arquivo:
+You can also read input from a file:
 
 ```bash
 ./inversoes < entrada.txt
 ```
 
-Os comandos de execução acima usam Bash. No PowerShell, execute o binário como `./inversoes.exe` e forneça a entrada pelo terminal.
+The execution commands above use Bash. In PowerShell, run the binary as `./inversoes.exe` and enter the input through the terminal.
 
-## Formatos e validação
+## Formats and validation
 
-Cada problema define seu próprio formato de entrada, quantidade de casos e condição de parada. Confira o código e o enunciado correspondente antes de reutilizar um arquivo; não há um formato único para a coleção.
+Each problem defines its own input format, number of test cases, and stopping condition. Check the code and corresponding problem statement before reusing a file; there is no single format for the collection.
